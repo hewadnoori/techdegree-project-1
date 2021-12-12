@@ -57,7 +57,8 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/queens.jpg') no-repeat top center ;
+  background: url('images/queens.jpg') no-repeat center ;
+  width: 100%;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -75,6 +76,9 @@ header .profile-image {
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
+}
+.exp {
+  padding-top: 50px;
 }
 .tag {
   background-color: #efefef;
