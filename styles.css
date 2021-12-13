@@ -12,7 +12,9 @@ body {
   background: #f7f5f0;
 }
 /* Link Styles */
-
+h2{
+  text-align: center;
+}
 a {
   text-decoration: none;
   color: #999;
@@ -54,7 +56,13 @@ a:hover {
 .nav a:hover {
   color: white
 }
-
+.back-card{
+  position: absolute;
+  left: 0%;
+  top: 50px;
+  z-index: 1;
+  width: 100%;
+}
 header {
   text-align: center;
   background: url('images/queens.jpg') no-repeat center ;
@@ -78,11 +86,15 @@ header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
 #exp {
-  padding-top: 50px;
+  margin-top: 320px;  
 }
 #exp h1{
   text-align: center;
 }
+#con{
+  margin-top: 380px;
+}
+
 .tag {
   background-color: #efefef;
   color: black;
@@ -95,8 +107,9 @@ header .profile-image:hover {
   background-color: #222;
   color: yellow;
 }
+
 .card {
-  margin: 30px;
+  margin: 10px;
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
@@ -104,6 +117,7 @@ header .profile-image:hover {
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
+  z-index: 10;
 }
 .card:hover {
   border-color: #ff99ff;
