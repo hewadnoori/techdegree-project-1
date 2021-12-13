@@ -71,14 +71,17 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 5px solid mediumaquamarine;
   transition: all .5s;
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
-.exp {
+#exp {
   padding-top: 50px;
+}
+#exp h1{
+  text-align: center;
 }
 .tag {
   background-color: #efefef;
